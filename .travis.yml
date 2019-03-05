@@ -5,5 +5,10 @@ go:
 
 sudo: false
 
+os:
+ - linux
+ - linux-ppc64le
+
+go_import_path: github.com/geofffranks/spruce
 script:
 - make
