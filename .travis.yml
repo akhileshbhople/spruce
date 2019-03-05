@@ -5,5 +5,11 @@ go:
 
 sudo: false
 
+os:
+ - linux-ppc64le
+
+go_import_path: github.com/geofffranks/spruce
+
 script:
+- file /home/travis/gopath/bin/godep
 - make
